@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Cluster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CluVRPinst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CluVRPsol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CluVRPsolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hausdorff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Heuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LKMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Printer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Solution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Trip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VNS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\YEdInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Activate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\AddCandidate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\AddExtraCandidates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\AddTourCandidates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\AdjustCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\AdjustClusters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\AllocateStructures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Ascent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Best2OptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Best3OptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Best4OptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Best5OptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\BestKOptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\BestSpecialOptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Between.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Between_SL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Between_SSL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\BIT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\BridgeGain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\BuildKDTree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\C.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\CandidateReport.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ChooseInitialTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Connect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Create_POPMUSIC_CandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\CreateCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\CreateDelaunayCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\CreateNNCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\CreateQuadrantCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\CVRP_InitialTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Delaunay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Distance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Distance_MTSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Distance_SOP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Distance_SPECIAL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\eprintf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ERXT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Excludable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Exclude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\FindTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\FixedOrCommonCandidates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Flip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Flip_SL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Flip_SSL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Forbidden.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\FreeStructures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\fscanint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Gain23.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\GenerateCandidates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Genetic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\GeoConversion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\GetTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\gpx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\GreedyTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Hashing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Improvement.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\IsBackboneCandidate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\IsCandidate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\IsCommonEdge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\IsPossibleCandidate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\KSwapKick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\LinKernighan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\LKHmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Make2OptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Make3OptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Make4OptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Make5OptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MakeKOptMove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MergeTourWithBestTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MergeWithTourGPX2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MergeWithTourIPT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Minimum1TreeCost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MinimumSpanningTree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MTSP_InitialTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MTSP_Report.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MTSP_WriteResult.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MTSP_WriteSolution.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\MTSP2TSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\NormalizeNodeList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\NormalizeSegmentList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\OrderCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\PatchCycles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\PDPTW_Reduce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\PDTSPL_RepairTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\PDTSPL_Tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_1_PDTSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_ACVRP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_BWTSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_CCVRP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_CVRP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_CVRPTW.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_M_PDTSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_M1_PDTSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_MTSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_MVRPB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_OVRP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_PDPTW.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_PDTSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_PDTSPF.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_PDTSPL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_RCTVRP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_SCVRPTW.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_SOP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_TRP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_TSPDL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_TSPPD.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_TSPTW.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_VRPB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_VRPBTW.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Penalty_VRPPD.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\printff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\PrintParameters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ReadCandidates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ReadEdges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ReadLine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ReadParameters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ReadPenalties.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ReadProblem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\RecordBestTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\RecordBetterTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\RemoveFirstActive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\ResetCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\RestoreTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SegmentSize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Sequence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SFCTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SINTEF_WriteSolution.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveCompressedSubproblem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveDelaunaySubproblems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveKarpSubproblems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveKCenterSubproblems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveKMeansSubproblems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveRoheSubproblems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveSFCSubproblems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveSubproblem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveSubproblemBorderProblems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SolveTourSegmentSubproblems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SOP_InitialTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SOP_RepairTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SOP_Report.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\Statistics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\StatusReport.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\StoreTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\SymmetrizeCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\TrimCandidateSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\TSPDL_InitialTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\TSPTW_MakespanCost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\TSPTW_Reduce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\VRPB_Reduce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\WriteCandidates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\WritePenalties.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srclkh\WriteTour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Cluster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CluVRPinst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CluVRPsol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CluVRPsolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Hausdorff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Heuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LKMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Printer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Solution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Trip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VNS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YEdInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\BIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\Delaunay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\GainType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\Genetic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\GeoConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\gpx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\Hashing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\Heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\LKH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\Segment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srclkh\Sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

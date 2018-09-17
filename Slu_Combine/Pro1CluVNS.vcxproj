@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{D8658007-81CA-4D3E-A576-39DB39C25301}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="srclkh\Activate.c" />
+    <ClCompile Include="srclkh\AddCandidate.c" />
+    <ClCompile Include="srclkh\AddExtraCandidates.c" />
+    <ClCompile Include="srclkh\AddTourCandidates.c" />
+    <ClCompile Include="srclkh\AdjustCandidateSet.c" />
+    <ClCompile Include="srclkh\AdjustClusters.c" />
+    <ClCompile Include="srclkh\AllocateStructures.c" />
+    <ClCompile Include="srclkh\Ascent.c" />
+    <ClCompile Include="srclkh\Best2OptMove.c" />
+    <ClCompile Include="srclkh\Best3OptMove.c" />
+    <ClCompile Include="srclkh\Best4OptMove.c" />
+    <ClCompile Include="srclkh\Best5OptMove.c" />
+    <ClCompile Include="srclkh\BestKOptMove.c" />
+    <ClCompile Include="srclkh\BestSpecialOptMove.c" />
+    <ClCompile Include="srclkh\Between.c" />
+    <ClCompile Include="srclkh\Between_SL.c" />
+    <ClCompile Include="srclkh\Between_SSL.c" />
+    <ClCompile Include="srclkh\BIT.c" />
+    <ClCompile Include="srclkh\BridgeGain.c" />
+    <ClCompile Include="srclkh\BuildKDTree.c" />
+    <ClCompile Include="srclkh\C.c" />
+    <ClCompile Include="srclkh\CandidateReport.c" />
+    <ClCompile Include="srclkh\ChooseInitialTour.c" />
+    <ClCompile Include="srclkh\Connect.c" />
+    <ClCompile Include="srclkh\CreateCandidateSet.c" />
+    <ClCompile Include="srclkh\CreateDelaunayCandidateSet.c" />
+    <ClCompile Include="srclkh\CreateNNCandidateSet.c" />
+    <ClCompile Include="srclkh\CreateQuadrantCandidateSet.c" />
+    <ClCompile Include="srclkh\Create_POPMUSIC_CandidateSet.c" />
+    <ClCompile Include="srclkh\CVRP_InitialTour.c" />
+    <ClCompile Include="srclkh\Delaunay.c" />
+    <ClCompile Include="srclkh\Distance.c" />
+    <ClCompile Include="srclkh\Distance_MTSP.c" />
+    <ClCompile Include="srclkh\Distance_SOP.c" />
+    <ClCompile Include="srclkh\Distance_SPECIAL.c" />
+    <ClCompile Include="srclkh\eprintf.c" />
+    <ClCompile Include="srclkh\ERXT.c" />
+    <ClCompile Include="srclkh\Excludable.c" />
+    <ClCompile Include="srclkh\Exclude.c" />
+    <ClCompile Include="srclkh\FindTour.c" />
+    <ClCompile Include="srclkh\FixedOrCommonCandidates.c" />
+    <ClCompile Include="srclkh\Flip.c" />
+    <ClCompile Include="srclkh\Flip_SL.c" />
+    <ClCompile Include="srclkh\Flip_SSL.c" />
+    <ClCompile Include="srclkh\Forbidden.c" />
+    <ClCompile Include="srclkh\FreeStructures.c" />
+    <ClCompile Include="srclkh\fscanint.c" />
+    <ClCompile Include="srclkh\Gain23.c" />
+    <ClCompile Include="srclkh\GenerateCandidates.c" />
+    <ClCompile Include="srclkh\Genetic.c" />
+    <ClCompile Include="srclkh\GeoConversion.c" />
+    <ClCompile Include="srclkh\GetTime.c" />
+    <ClCompile Include="srclkh\gpx.c" />
+    <ClCompile Include="srclkh\GreedyTour.c" />
+    <ClCompile Include="srclkh\Hashing.c" />
+    <ClCompile Include="srclkh\Heap.c" />
+    <ClCompile Include="srclkh\Improvement.c" />
+    <ClCompile Include="srclkh\IsBackboneCandidate.c" />
+    <ClCompile Include="srclkh\IsCandidate.c" />
+    <ClCompile Include="srclkh\IsCommonEdge.c" />
+    <ClCompile Include="srclkh\IsPossibleCandidate.c" />
+    <ClCompile Include="srclkh\KSwapKick.c" />
+    <ClCompile Include="srclkh\LinKernighan.c" />
+    <ClCompile Include="srclkh\LKHmain.c" />
+    <ClCompile Include="srclkh\Make2OptMove.c" />
+    <ClCompile Include="srclkh\Make3OptMove.c" />
+    <ClCompile Include="srclkh\Make4OptMove.c" />
+    <ClCompile Include="srclkh\Make5OptMove.c" />
+    <ClCompile Include="srclkh\MakeKOptMove.c" />
+    <ClCompile Include="srclkh\MergeTourWithBestTour.c" />
+    <ClCompile Include="srclkh\MergeWithTourGPX2.c" />
+    <ClCompile Include="srclkh\MergeWithTourIPT.c" />
+    <ClCompile Include="srclkh\Minimum1TreeCost.c" />
+    <ClCompile Include="srclkh\MinimumSpanningTree.c" />
+    <ClCompile Include="srclkh\MTSP2TSP.c" />
+    <ClCompile Include="srclkh\MTSP_InitialTour.c" />
+    <ClCompile Include="srclkh\MTSP_Report.c" />
+    <ClCompile Include="srclkh\MTSP_WriteResult.c" />
+    <ClCompile Include="srclkh\MTSP_WriteSolution.c" />
+    <ClCompile Include="srclkh\NormalizeNodeList.c" />
+    <ClCompile Include="srclkh\NormalizeSegmentList.c" />
+    <ClCompile Include="srclkh\OrderCandidateSet.c" />
+    <ClCompile Include="srclkh\PatchCycles.c" />
+    <ClCompile Include="srclkh\PDPTW_Reduce.c" />
+    <ClCompile Include="srclkh\PDTSPL_RepairTour.c" />
+    <ClCompile Include="srclkh\PDTSPL_Tree.c" />
+    <ClCompile Include="srclkh\Penalty_1_PDTSP.c" />
+    <ClCompile Include="srclkh\Penalty_ACVRP.c" />
+    <ClCompile Include="srclkh\Penalty_BWTSP.c" />
+    <ClCompile Include="srclkh\Penalty_CCVRP.c" />
+    <ClCompile Include="srclkh\Penalty_CVRP.c" />
+    <ClCompile Include="srclkh\Penalty_CVRPTW.c" />
+    <ClCompile Include="srclkh\Penalty_M1_PDTSP.c" />
+    <ClCompile Include="srclkh\Penalty_MTSP.c" />
+    <ClCompile Include="srclkh\Penalty_MVRPB.c" />
+    <ClCompile Include="srclkh\Penalty_M_PDTSP.c" />
+    <ClCompile Include="srclkh\Penalty_OVRP.c" />
+    <ClCompile Include="srclkh\Penalty_PDPTW.c" />
+    <ClCompile Include="srclkh\Penalty_PDTSP.c" />
+    <ClCompile Include="srclkh\Penalty_PDTSPF.c" />
+    <ClCompile Include="srclkh\Penalty_PDTSPL.c" />
+    <ClCompile Include="srclkh\Penalty_RCTVRP.c" />
+    <ClCompile Include="srclkh\Penalty_SCVRPTW.c" />
+    <ClCompile Include="srclkh\Penalty_SOP.c" />
+    <ClCompile Include="srclkh\Penalty_TRP.c" />
+    <ClCompile Include="srclkh\Penalty_TSPDL.c" />
+    <ClCompile Include="srclkh\Penalty_TSPPD.c" />
+    <ClCompile Include="srclkh\Penalty_TSPTW.c" />
+    <ClCompile Include="srclkh\Penalty_VRPB.c" />
+    <ClCompile Include="srclkh\Penalty_VRPBTW.c" />
+    <ClCompile Include="srclkh\Penalty_VRPPD.c" />
+    <ClCompile Include="srclkh\printff.c" />
+    <ClCompile Include="srclkh\PrintParameters.c" />
+    <ClCompile Include="srclkh\Random.c" />
+    <ClCompile Include="srclkh\ReadCandidates.c" />
+    <ClCompile Include="srclkh\ReadEdges.c" />
+    <ClCompile Include="srclkh\ReadLine.c" />
+    <ClCompile Include="srclkh\ReadParameters.c" />
+    <ClCompile Include="srclkh\ReadPenalties.c" />
+    <ClCompile Include="srclkh\ReadProblem.c" />
+    <ClCompile Include="srclkh\RecordBestTour.c" />
+    <ClCompile Include="srclkh\RecordBetterTour.c" />
+    <ClCompile Include="srclkh\RemoveFirstActive.c" />
+    <ClCompile Include="srclkh\ResetCandidateSet.c" />
+    <ClCompile Include="srclkh\RestoreTour.c" />
+    <ClCompile Include="srclkh\SegmentSize.c" />
+    <ClCompile Include="srclkh\Sequence.c" />
+    <ClCompile Include="srclkh\SFCTour.c" />
+    <ClCompile Include="srclkh\SINTEF_WriteSolution.c" />
+    <ClCompile Include="srclkh\SolveCompressedSubproblem.c" />
+    <ClCompile Include="srclkh\SolveDelaunaySubproblems.c" />
+    <ClCompile Include="srclkh\SolveKarpSubproblems.c" />
+    <ClCompile Include="srclkh\SolveKCenterSubproblems.c" />
+    <ClCompile Include="srclkh\SolveKMeansSubproblems.c" />
+    <ClCompile Include="srclkh\SolveRoheSubproblems.c" />
+    <ClCompile Include="srclkh\SolveSFCSubproblems.c" />
+    <ClCompile Include="srclkh\SolveSubproblem.c" />
+    <ClCompile Include="srclkh\SolveSubproblemBorderProblems.c" />
+    <ClCompile Include="srclkh\SolveTourSegmentSubproblems.c" />
+    <ClCompile Include="srclkh\SOP_InitialTour.c" />
+    <ClCompile Include="srclkh\SOP_RepairTour.c" />
+    <ClCompile Include="srclkh\SOP_Report.c" />
+    <ClCompile Include="srclkh\Statistics.c" />
+    <ClCompile Include="srclkh\StatusReport.c" />
+    <ClCompile Include="srclkh\StoreTour.c" />
+    <ClCompile Include="srclkh\SymmetrizeCandidateSet.c" />
+    <ClCompile Include="srclkh\TrimCandidateSet.c" />
+    <ClCompile Include="srclkh\TSPDL_InitialTour.c" />
+    <ClCompile Include="srclkh\TSPTW_MakespanCost.c" />
+    <ClCompile Include="srclkh\TSPTW_Reduce.c" />
+    <ClCompile Include="srclkh\VRPB_Reduce.c" />
+    <ClCompile Include="srclkh\WriteCandidates.c" />
+    <ClCompile Include="srclkh\WritePenalties.c" />
+    <ClCompile Include="srclkh\WriteTour.c" />
+    <ClCompile Include="src\Cluster.cpp" />
+    <ClCompile Include="src\CluVRPinst.cpp" />
+    <ClCompile Include="src\CluVRPsol.cpp" />
+    <ClCompile Include="src\CluVRPsolver.cpp" />
+    <ClCompile Include="src\FileHandler.cpp" />
+    <ClCompile Include="src\Globals.cpp" />
+    <ClCompile Include="src\Hausdorff.cpp" />
+    <ClCompile Include="src\Heuristic.cpp" />
+    <ClCompile Include="src\LKMatrix.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Move.cpp" />
+    <ClCompile Include="src\Printer.cpp" />
+    <ClCompile Include="src\Reader.cpp" />
+    <ClCompile Include="src\Solution.cpp" />
+    <ClCompile Include="src\Timer.cpp" />
+    <ClCompile Include="src\Trip.cpp" />
+    <ClCompile Include="src\VNS.cpp" />
+    <ClCompile Include="src\YEdInterface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="srclkh\BIT.h" />
+    <ClInclude Include="srclkh\Delaunay.h" />
+    <ClInclude Include="srclkh\GainType.h" />
+    <ClInclude Include="srclkh\Genetic.h" />
+    <ClInclude Include="srclkh\GeoConversion.h" />
+    <ClInclude Include="srclkh\gpx.h" />
+    <ClInclude Include="srclkh\Hashing.h" />
+    <ClInclude Include="srclkh\Heap.h" />
+    <ClInclude Include="srclkh\LKH.h" />
+    <ClInclude Include="srclkh\Segment.h" />
+    <ClInclude Include="srclkh\Sequence.h" />
+    <ClInclude Include="src\Cluster.h" />
+    <ClInclude Include="src\CluVRPinst.h" />
+    <ClInclude Include="src\CluVRPsol.h" />
+    <ClInclude Include="src\CluVRPsolver.h" />
+    <ClInclude Include="src\FileHandler.h" />
+    <ClInclude Include="src\Globals.h" />
+    <ClInclude Include="src\Hausdorff.h" />
+    <ClInclude Include="src\Heuristic.h" />
+    <ClInclude Include="src\LKMatrix.h" />
+    <ClInclude Include="src\Move.h" />
+    <ClInclude Include="src\Printer.h" />
+    <ClInclude Include="src\Reader.h" />
+    <ClInclude Include="src\Solution.h" />
+    <ClInclude Include="src\Timer.h" />
+    <ClInclude Include="src\Trip.h" />
+    <ClInclude Include="src\VNS.h" />
+    <ClInclude Include="src\YEdInterface.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
